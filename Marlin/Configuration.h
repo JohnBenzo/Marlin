@@ -746,7 +746,7 @@
  * Override with M92
  *                                      X, Y, Z, E0 [, E1[, E2...]]
  */
-#define DEFAULT_AXIS_STEPS_PER_UNIT   { 320, 320, 3200, 150 }
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 320, 320, 400, 150 }
 
 /**
  * Default Max Feed Rate (mm/s)
@@ -1398,7 +1398,7 @@
 #endif
 
 // Homing speeds (mm/min)
-#define HOMING_FEEDRATE_XY (20*60)
+#define HOMING_FEEDRATE_XY (30*60)
 #define HOMING_FEEDRATE_Z  (4*60)
 
 // Validate that endstops are triggered on homing moves
